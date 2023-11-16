@@ -8,9 +8,9 @@ on:
 
 env:
   # Use docker.io for Docker Hub if empty
-  REGISTRY: docker.io
+  REGISTRY: eliopezx
   # github.repository as <account>/<repo>
-  IMAGE_NAME: eliopezx/ferreteria-vue:last
+  IMAGE_NAME: ferreteria-vue
   #${{ github.repository }}
 
 jobs:
