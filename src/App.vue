@@ -88,7 +88,7 @@
           />
 
         </div>
-        <h2>Sistema Ferreterí</h2>
+        <h2>Sistema Ferreteríe</h2>
         <!--v-toolbar-title>Sistema Ferretería</v-toolbar-title-->
       </v-app-bar>
 
