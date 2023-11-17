@@ -70,4 +70,4 @@ jobs:
             docker pull eliopezx/ferreteria-vue:main
             docker container stop contenedor-ferreteria
             docker container rm contenedor-ferreteria
-            docker run -d -p 8090:80 --rm --name contenedor-ferreteria da5b2f041346
+            docker run -d -p 8090:80 --rm --name contenedor-ferreteria eliopezx/ferreteria-vue:main
