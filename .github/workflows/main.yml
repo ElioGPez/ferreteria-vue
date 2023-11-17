@@ -68,7 +68,4 @@ jobs:
           port: 5123
           script: |
             docker pull eliopezx/ferreteria-vue:main
-           # docker stop tu_contenedor || true
-           # docker rm tu_contenedor || true
-           # docker run -d -p 80:80 --name tu_contenedor ghcr.io/usuario/repo:latest
             docker run -d -p 8090:80 --rm --name contenedor-ferreteria da5b2f041346
