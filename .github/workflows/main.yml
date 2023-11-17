@@ -67,5 +67,5 @@ jobs:
           password: winmugen
           port: 5123
           script: |
-            sudo docker pull eliopezx/ferreteria-vue:main
-            sudo docker run -d -p 8090:80 --rm --name contenedor-ferreteria da5b2f041346
+            docker pull eliopezx/ferreteria-vue:main
+            docker run -d -p 8090:80 --rm --name contenedor-ferreteria da5b2f041346
