@@ -64,7 +64,7 @@ jobs:
         with:
           host: vps-3018590-x.dattaweb.com
           username: root
-          password: Winmugen0
+          password: Yosoymclovin1!
           port: 5123
           script: |
             docker pull eliopezx/ferreteria-vue:main
