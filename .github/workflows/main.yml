@@ -63,8 +63,8 @@ jobs:
         uses: appleboy/ssh-action@v0.1.3
         with:
           host: vps-3018590-x.dattaweb.com
-          username: elio
-          password: winmugen
+          username: root
+          password: Winmugen0
           port: 5123
           script: |
             docker pull eliopezx/ferreteria-vue:main
